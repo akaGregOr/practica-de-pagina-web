@@ -61,7 +61,19 @@ button, input, textarea, select { font: inherit; }
    Evitar Flexbox y Grid por ahora; se trabajan en la sesión 17. */
 
 .site-header {
-  /* TODO S16: fondo, borde inferior, padding */
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: var(--color-background);
+}
+
+svg{
+  width: 24px;
+  height: 24px;
+
 }
 
 .brand {
@@ -70,6 +82,11 @@ button, input, textarea, select { font: inherit; }
 
 .brand span {
   /* TODO S16: color de acento */
+}
+
+.main-nav{
+  display: flex;
+
 }
 
 .main-nav a,
