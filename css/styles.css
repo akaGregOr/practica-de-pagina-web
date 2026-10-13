@@ -1,0 +1,188 @@
+/* ======================================================
+   NOVATECH · PRÁCTICA SESIONES 16 Y 17
+   Estudiante: [Nombres y apellidos]
+   Curso: Desarrollo Web
+   Objetivo: completar estilos y maquetación progresivamente.
+   ====================================================== */
+
+/* SESIÓN 16 · 1. Variables del sistema visual */
+:root {
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-secondary: #0f172a;
+  --color-text: #1f2937;
+  --color-muted: #64748b;
+  --color-background: #ffffff;
+  --color-surface: #f8fafc;
+  --color-hero: #eff6ff;
+  --color-border: #e2e8f0;
+  --container-width: 1200px;
+  --radius-card: 12px;
+  --radius-button: 6px;
+}
+
+/* SESIÓN 16 · 2. Lienzo inicial moderno */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-background);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a { color: inherit; }
+button, input, textarea, select { font: inherit; }
+
+/* SESIÓN 16 · 3. Contenedor centrado */
+.container {
+  width: 90%;
+  max-width: var(--container-width);
+  margin-inline: auto;
+}
+
+/* SESIÓN 16 · 4. Identidad visual: completar */
+/* RETO: aplicar colores, tipografía, fondos, espacios, bordes y botones.
+   Evitar Flexbox y Grid por ahora; se trabajan en la sesión 17. */
+
+.site-header {
+  /* TODO S16: fondo, borde inferior, padding */
+}
+
+.brand {
+  /* TODO S16: tipografía, color, tamaño, decoración */
+}
+
+.brand span {
+  /* TODO S16: color de acento */
+}
+
+.main-nav a,
+.social-links a {
+  /* TODO S16: estilo de enlaces e iconos */
+}
+
+.hero {
+  /* TODO S16: fondo de imagen con degradado, padding vertical.
+     Ejemplo de capas: linear-gradient(...), url('../img/01-hero-laptop.jpg')
+     background-size: cover; background-position: center; */
+}
+
+.hero-content {
+  /* TODO S16: limitar ancho del texto (max-width) */
+}
+
+.eyebrow {
+  /* TODO S16: texto pequeño en mayúsculas, azul */
+}
+
+.hero h1 {
+  /* TODO S16: tamaño, color, line-height y márgenes */
+}
+
+.hero h1 span {
+  /* TODO S16: destacar en azul */
+}
+
+.button {
+  /* TODO S16: inline-block, padding, borde, radio, decoración */
+}
+
+.button-primary {
+  /* TODO S16: botón principal */
+}
+
+.button-outline {
+  /* TODO S16: botón secundario */
+}
+
+.section {
+  /* TODO S16: separación vertical entre secciones */
+}
+
+.section-heading {
+  /* TODO S16: títulos y descripción de sección */
+}
+
+.service-card,
+.project-card {
+  /* TODO S16: fondo, borde, radio, padding/sombra según corresponda */
+}
+
+.service-icon {
+  /* TODO S16: tamaño, fondo, color, borde redondeado */
+}
+
+.service-icon-blue { /* TODO S16 */ }
+.service-icon-green { /* TODO S16 */ }
+.service-icon-orange { /* TODO S16 */ }
+
+.about {
+  /* TODO S16: fondo o separación visual */
+}
+
+.about-image img {
+  /* TODO S16: bordes y tamaño si corresponde */
+}
+
+.projects {
+  /* TODO S16: fondo de sección */
+}
+
+.project-body {
+  /* TODO S16: espacios internos de tarjetas */
+}
+
+.site-footer {
+  /* TODO S16: borde superior, padding, tipografía discreta */
+}
+
+/* ======================================================
+   SESIÓN 17 · MAQUETACIÓN (NO RESOLVER EN SESIÓN 16)
+   ====================================================== */
+
+.header-content {
+  /* TODO S17: display:flex, justify-content, align-items, gap */
+}
+
+.main-nav,
+.social-links {
+  /* TODO S17: distribución horizontal con Flexbox */
+}
+
+.hero-actions {
+  /* TODO S17: distribuir botones con Flexbox */
+}
+
+.services-grid {
+  /* TODO S17: display:grid, columnas y gap */
+}
+
+.about-layout {
+  /* TODO S17: dos columnas con Grid o Flexbox */
+}
+
+.projects-grid {
+  /* TODO S17: tres columnas con Grid y gap */
+}
+
+.footer-content {
+  /* TODO S17: copyright a la izquierda y privacidad a la derecha */
+}
+
+/* Responsive formal y media queries: se estudiarán en la sesión 18. */
