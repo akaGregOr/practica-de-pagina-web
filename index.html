@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="NovaTech: soluciones digitales, desarrollo web, SEO y soporte para negocios.">
+  <meta name="theme-color" content="#ffffff">
   <title>NovaTech | Soluciones digitales</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,29 +13,39 @@
 </head>
 <body>
   <header class="site-header">
-    <h1 class="header_h1">Nova<span>Tech</span></h1> 
-    <nav class="header_nav">
-      <a href="#">Inicio</a>
-      <a href="#">Servicios</a>
-      <a href="#">Nosotros</a>
-      <a href="#">Contacto</a>
-    </nav>
-    <div class="header_social">
-      <a href="#">
-        <svg width="128" height="128" viewBox="-7 -2 24 24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" class="jam jam-facebook"><path d="M2.046 3.865v2.748H.032v3.36h2.014v9.986H6.18V9.974h2.775s.26-1.611.386-3.373H6.197V4.303c0-.343.45-.805.896-.805h2.254V0H6.283c-4.34 0-4.237 3.363-4.237 3.865"/></svg>
-      </a>
-      <a href="#"><svg width="128" height="128" viewBox="-2 -2 24 24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" class="jam jam-instagram"><path d="M14.017 0h-8.07A5.954 5.954 0 0 0 0 5.948v8.07a5.954 5.954 0 0 0 5.948 5.947h8.07a5.954 5.954 0 0 0 5.947-5.948v-8.07A5.954 5.954 0 0 0 14.017 0m3.94 14.017a3.94 3.94 0 0 1-3.94 3.94h-8.07a3.94 3.94 0 0 1-3.939-3.94v-8.07a3.94 3.94 0 0 1 3.94-3.939h8.07a3.94 3.94 0 0 1 3.939 3.94v8.07z"/><path d="M9.982 4.819A5.17 5.17 0 0 0 4.82 9.982a5.17 5.17 0 0 0 5.163 5.164 5.17 5.17 0 0 0 5.164-5.164A5.17 5.17 0 0 0 9.982 4.82zm0 8.319a3.155 3.155 0 1 1 0-6.31 3.155 3.155 0 0 1 0 6.31"/><circle cx="15.156" cy="4.858" r="1.237"/></svg></a>
-      <a href="#"><svg width="128" height="128" viewBox="-2 -2 24 24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" class="jam jam-linkedin-square"><path d="M15 11.13v3.697h-2.143v-3.45c0-.866-.31-1.457-1.086-1.457-.592 0-.945.398-1.1.784-.056.138-.071.33-.071.522v3.601H8.456s.029-5.842 0-6.447H10.6v.913l-.014.021h.014v-.02c.285-.44.793-1.066 1.932-1.066 1.41 0 2.468.922 2.468 2.902M6.213 5.271C5.48 5.271 5 5.753 5 6.385c0 .62.466 1.115 1.185 1.115h.014c.748 0 1.213-.496 1.213-1.115-.014-.632-.465-1.114-1.199-1.114m-1.086 9.556h2.144V8.38H5.127z"/><path d="M4 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm0-2h12a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4"/></svg></a>
+    <div class="container header-layout">
+      <a class="header-logo" href="#inicio" aria-label="NovaTech, ir al inicio">Nova<span>Tech</span></a>
+
+      <nav class="header-nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="header-social" aria-label="Redes sociales">
+        
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook (sitio externo)">
+          <svg viewBox="-7 -2 24 24" aria-hidden="true" focusable="false"><path d="M2.046 3.865v2.748H.032v3.36h2.014v9.986H6.18V9.974h2.775s.26-1.611.386-3.373H6.197V4.303c0-.343.45-.805.896-.805h2.254V0H6.283c-4.34 0-4.237 3.363-4.237 3.865"/></svg>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram (sitio externo)">
+          <svg viewBox="-2 -2 24 24" aria-hidden="true" focusable="false"><path d="M14.017 0h-8.07A5.954 5.954 0 0 0 0 5.948v8.07a5.954 5.954 0 0 0 5.948 5.947h8.07a5.954 5.954 0 0 0 5.947-5.948v-8.07A5.954 5.954 0 0 0 14.017 0m3.94 14.017a3.94 3.94 0 0 1-3.94 3.94h-8.07a3.94 3.94 0 0 1-3.939-3.94v-8.07a3.94 3.94 0 0 1 3.94-3.939h8.07a3.94 3.94 0 0 1 3.939 3.94v8.07z"/><path d="M9.982 4.819A5.17 5.17 0 0 0 4.82 9.982a5.17 5.17 0 0 0 5.163 5.164 5.17 5.17 0 0 0 5.164-5.164A5.17 5.17 0 0 0 9.982 4.82zm0 8.319a3.155 3.155 0 1 1 0-6.31 3.155 3.155 0 0 1 0 6.31"/><circle cx="15.156" cy="4.858" r="1.237"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (sitio externo)">
+          <svg viewBox="-2 -2 24 24" aria-hidden="true" focusable="false"><path d="M15 11.13v3.697h-2.143v-3.45c0-.866-.31-1.457-1.086-1.457-.592 0-.945.398-1.1.784-.056.138-.071.33-.071.522v3.601H8.456s.029-5.842 0-6.447H10.6v.913l-.014.021h.014v-.02c.285-.44.793-1.066 1.932-1.066 1.41 0 2.468.922 2.468 2.902M6.213 5.271C5.48 5.271 5 5.753 5 6.385c0 .62.466 1.115 1.185 1.115h.014c.748 0 1.213-.496 1.213-1.115-.014-.632-.465-1.114-1.199-1.114m-1.086 9.556h2.144V8.38H5.127z"/><path d="M4 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm0-2h12a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4"/></svg>
+        </a>
+      </div>
     </div>
   </header>
 
   <main>
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="container">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-layout">
         <div class="hero-content">
           <p class="eyebrow">SOLUCIONES DIGITALES</p>
           <h1 id="hero-title">Transformamos ideas en <span>soluciones digitales</span></h1>
-          <p>Desarrollamos sitios web modernos, funcionales y adaptados a las necesidades de tu negocio.</p>
+          <p class="hero-description">Desarrollamos sitios web modernos, funcionales y adaptados a las necesidades de tu negocio.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#servicios">Nuestros servicios</a>
             <a class="button button-outline" href="#contacto">Contáctanos</a>
@@ -55,19 +66,19 @@
             <div class="service-icon service-icon-blue" aria-hidden="true">⌘</div>
             <h3>Desarrollo Web</h3>
             <p>Sitios web modernos, rápidos y optimizados para todos los dispositivos.</p>
-            <a href="#contacto">Más información →</a>
+            <a href="#contacto">Más información <span aria-hidden="true">→</span></a>
           </article>
           <article class="service-card">
             <div class="service-icon service-icon-green" aria-hidden="true">↗</div>
             <h3>SEO y Marketing</h3>
             <p>Mejora tu visibilidad en buscadores y atrae más clientes a tu negocio.</p>
-            <a href="#contacto">Más información →</a>
+            <a href="#contacto">Más información <span aria-hidden="true">→</span></a>
           </article>
           <article class="service-card">
             <div class="service-icon service-icon-orange" aria-hidden="true">✦</div>
             <h3>Hosting y Soporte</h3>
             <p>Hospedaje seguro y asistencia técnica continua para tu sitio web.</p>
-            <a href="#contacto">Más información →</a>
+            <a href="#contacto">Más información <span aria-hidden="true">→</span></a>
           </article>
         </div>
       </div>
@@ -76,7 +87,7 @@
     <section class="section about" id="nosotros" aria-labelledby="about-title">
       <div class="container about-layout">
         <div class="about-image">
-          <img src="img/02-equipo.jpg" alt="Equipo de NovaTech trabajando en conjunto frente a una computadora" loading="lazy">
+          <img src="img/02-equipo.jpg" alt="Equipo de NovaTech trabajando en conjunto frente a una computadora" loading="lazy" width="900" height="650">
         </div>
         <div class="about-content">
           <p class="eyebrow">SOBRE NOSOTROS</p>
@@ -96,16 +107,28 @@
         </div>
         <div class="projects-grid">
           <article class="project-card">
-            <img src="img/03-proyecto-cafe.jpg" alt="Vista previa de un sitio web para una cafetería" loading="lazy">
-            <div class="project-body"><p>Sitio Web</p><h3>Café del Valle</h3><p>Sitio web corporativo para una cafetería especializada.</p></div>
+            <img src="img/03-proyecto-cafe.jpg" alt="Vista previa de un sitio web para una cafetería" loading="lazy" width="640" height="400">
+            <div class="project-body">
+              <p class="project-category">Sitio Web</p>
+              <h3>Café del Valle</h3>
+              <p>Sitio web corporativo para una cafetería especializada.</p>
+            </div>
           </article>
           <article class="project-card">
-            <img src="img/04-proyecto-fitlife.jpg" alt="Vista previa de una aplicación de entrenamiento" loading="lazy">
-            <div class="project-body"><p>Aplicación Web</p><h3>FitLife</h3><p>Plataforma web para gestión de entrenamientos.</p></div>
+            <img src="img/04-proyecto-fitlife.jpg" alt="Vista previa de una aplicación de entrenamiento" loading="lazy" width="640" height="400">
+            <div class="project-body">
+              <p class="project-category">Aplicación Web</p>
+              <h3>FitLife</h3>
+              <p>Plataforma web para gestión de entrenamientos.</p>
+            </div>
           </article>
           <article class="project-card">
-            <img src="img/05-proyecto-gestion.jpg" alt="Vista previa de un panel de gestión empresarial" loading="lazy">
-            <div class="project-body"><p>Sistema Web</p><h3>GestiónPro</h3><p>Sistema de gestión empresarial para pymes.</p></div>
+            <img src="img/05-proyecto-gestion.jpg" alt="Vista previa de un panel de gestión empresarial" loading="lazy" width="640" height="400">
+            <div class="project-body">
+              <p class="project-category">Sistema Web</p>
+              <h3>GestiónPro</h3>
+              <p>Sistema de gestión empresarial para pymes.</p>
+            </div>
           </article>
         </div>
       </div>
@@ -115,7 +138,10 @@
   <footer class="site-footer" id="contacto">
     <div class="container footer-content">
       <p>© 2026 NovaTech. Todos los derechos reservados.</p>
-      <a href="#">Política de privacidad</a>
+      <div class="footer-links">
+        <a href="#contacto">Política de privacidad</a>
+        <a href="#contacto">Términos de uso</a>
+      </div>
     </div>
   </footer>
 </body>
