@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Reemplazar la ruta por la ubicación definitiva del logotipo de IDAT. -->
-<img src="img/logo-idat.png" alt="Logo de IDAT" width="180">
+<img src="https://www.greatplacetowork.com.pe/images/certification/2021/idat/logo-2.png" alt="Logo de IDAT" width="180">
 
 # Práctica integradora: NovaTech
 
