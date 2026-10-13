@@ -66,14 +66,43 @@ button, input, textarea, select { font: inherit; }
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 0px 40px;
   background-color: var(--color-background);
 }
 
 svg{
   width: 24px;
   height: 24px;
+}
 
+span{
+  color: var(--color-primary);
+}
+
+.header_nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.header_nav a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.3s ease ;
+}
+
+.header_nav a:hover{
+  text-decoration: underline;
+  color: var(--color-primary-hover);
+}
+
+.header_social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 .brand {
@@ -203,3 +232,15 @@ svg{
 }
 
 /* Responsive formal y media queries: se estudiarán en la sesión 18. */
+@media screen and (max-width: 760px) {
+  .site-header{
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .header_nav{
+    gap: 15px;
+  }
+  .header_social{
+    display: none;
+  }
+}
